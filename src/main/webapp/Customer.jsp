@@ -151,7 +151,7 @@ li.dropdown {
 try {
 	System.out.println("start");
 	Class.forName("com.mysql.jdbc.Driver");
-	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mashroom", "root", "password");
+	Connection con = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12200526", "sql12200526", "ESqHyRTdks");
 	//here sonoo is database name, root is username and password  
 	PreparedStatement stmt = con.prepareStatement("select * from Customer_master");
 	ResultSet rs = stmt.executeQuery();

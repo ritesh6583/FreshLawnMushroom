@@ -13,7 +13,7 @@
 	Connection connection = null;
 	try {
 		Class.forName("com.mysql.jdbc.Driver");
-		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mashroom", "root", "password");
+		connection = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12200526", "sql12200526", "ESqHyRTdks");
 		PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO mashroom.supplier_master (Supplier_First_Name, Supplier_Last_Name, Supplier_contact_person, Supplier_contact_person_Mobile_NO, Created_Date) VALUES (?, ?, ?, ?, ?)");
 		preparedStatement.setString(1, firstname);
 		preparedStatement.setString(2, lastname);

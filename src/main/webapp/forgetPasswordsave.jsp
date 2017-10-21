@@ -32,7 +32,7 @@ Session session1 = Session.getInstance(props, new javax.mail.Authenticator() {
 	String password = null;
 	try {
 		Class.forName("com.mysql.jdbc.Driver");
-		connection = DriverManager.getConnection("jdbc:mysql://lo'calhost:3306/mashroom", "root", "password");
+		connection = DriverManager.getConnection("jdbc:mysql://lo'calhost:3306/mashroom", "root", "ESqHyRTdks");
 		Statement preparedStatement = connection.createStatement();
 
 		ResultSet rs = preparedStatement

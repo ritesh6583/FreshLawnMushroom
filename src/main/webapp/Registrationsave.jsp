@@ -12,14 +12,14 @@
 	String gender = request.getParameter("gender");
 	
 	String UserName = request.getParameter("UserName");
-	String PassWord = request.getParameter("PassWord");
+	String PassWord = request.getParameter("ESqHyRTdks");
 	String DOB = request.getParameter("DOB");
 	String language = request.getParameter("language");
 	String Remarks = request.getParameter("Remarks");
 	Connection connection = null;
 	try {
 		Class.forName("com.mysql.jdbc.Driver");
-		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mashroom", "root", "password");
+		connection = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12200526", "sql12200526", "ESqHyRTdks");
 		PreparedStatement preparedStatement = connection.prepareStatement(
 				"INSERT INTO mashroom.registration VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
 

@@ -9,10 +9,10 @@
     <input type="radio" name="slide" class="control" id="Slide4" />
     <label for="Slide4" id="s4"></label>
     <div class="overflow-wrapper">
-      <a class="slide" href=""><img src="C:/Users/LENOVO/Desktop/mushroom/WebContent/fresh-button-mushroom.jpg" /></a>
-      <a class="slide" href=""><img src="C:/Users/LENOVO/Desktop/mushroom/WebContent/fresh-button-mushroom1.jpg" /></a>
-      <a class="slide" href=""><img src="C:/Users/LENOVO/Desktop/mushroom/WebContent/fresh-button-mushroom2.jpg" /></a>
-      <a class="slide" href=""><img src="C:/Users/LENOVO/Desktop/mushroom/WebContent/fresh-button-mushroom2.jpg" /></a>
+      <a class="slide" href=""><img src="fresh-button-mushroom.jpg" /></a>
+      <a class="slide" href=""><img src="fresh-button-mushroom1.jpg" /></a>
+      <a class="slide" href=""><img src="fresh-button-mushroom2.jpg" /></a>
+      <a class="slide" href=""><img src="fresh-button-mushroom2.jpg" /></a>
     </div>
   </div>
 </div>

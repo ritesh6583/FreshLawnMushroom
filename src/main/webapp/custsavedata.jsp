@@ -17,7 +17,7 @@ try {
 	Connection connection = null;
 	try {
 		Class.forName("com.mysql.jdbc.Driver");
-		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mashroom?autoReconnect=true", "root", "password");
+		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mashroom?autoReconnect=true", "root", "ESqHyRTdks");
 		connection.setAutoCommit(false);
 		PreparedStatement preparedStatement = connection.prepareStatement(
 				"INSERT INTO mashroom.customer_master (Customer_Gen_ID, Customer_First_Name, Customer_Last_Name, Customer_contact_person, Customer_contact_person_Mobile_NO, Created_Date ,Customer_Contact_Delivery_Adreess) VALUES (?, ?, ?, ?, ?,?,?)");

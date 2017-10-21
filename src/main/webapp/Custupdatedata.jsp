@@ -16,7 +16,7 @@ String Customer_Gen_ID = request.getParameter("Customer_Gen_ID");
 	Connection connection = null;
 	try {
 		Class.forName("com.mysql.jdbc.Driver");
-		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mashroom", "root", "password");
+		connection = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12200526", "sql12200526", "ESqHyRTdks");
 		PreparedStatement preparedStatement = connection.prepareStatement(
 				"UPDATE  mashroom.customer_master set Customer_First_Name=?, Customer_Last_Name=?, Customer_contact_person=?, Customer_contact_person_Mobile_NO=?, Created_Date=?,Customer_Contact_Delivery_Adreess=?  WHERE Customer_Gen_ID=?");
 		

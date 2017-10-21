@@ -142,7 +142,7 @@ li.dropdown {
 	String password = null;
 	try {
 		Class.forName("com.mysql.jdbc.Driver");
-		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mashroom", "root", "password");
+		connection = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12200526", "sql12200526", "ESqHyRTdks");
 		Statement preparedStatement = connection.createStatement();
 
 		ResultSet rs = preparedStatement
@@ -202,7 +202,7 @@ li.dropdown {
 </div>
 </body>
 <footer>Copyright &copy; freshlawnmushroom.com</footer>
-<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
 		$('.add-product').click(function() {

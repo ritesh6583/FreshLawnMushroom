@@ -20,11 +20,11 @@
 	String created_Date = request.getParameter("created_Date");
 	String created_By = request.getParameter("created_By");
 	String User_Name = request.getParameter("User_Name");
-	String PassWord = request.getParameter("PassWord");
+	String PassWord = request.getParameter("ESqHyRTdks");
 	Connection connection = null;
 	try {
 		Class.forName("com.mysql.jdbc.Driver");
-		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mashroom", "root", "password");
+		connection = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12200526", "sql12200526", "ESqHyRTdks");
 		PreparedStatement preparedStatement = connection.prepareStatement(
 				"INSERT INTO mashroom.employee_master VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 

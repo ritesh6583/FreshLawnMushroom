@@ -289,9 +289,9 @@ body {margin:0;}
 
 
 <footer>Copyright &copy; freshlawnmushroom.com</footer>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/slick.min.js"></script>
-<script type="text/javascript" src="js/TweenMax.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script type="text/javascript" src="js/default.js"></script>
 
 </body>

@@ -16,7 +16,7 @@
 	Connection connection = null;
 	try {
 		Class.forName("com.mysql.jdbc.Driver");
-		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mashroom", "root", "password");
+		connection = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12200526", "sql12200526", "ESqHyRTdks");
 		PreparedStatement preparedStatement = connection.prepareStatement(
 				"UPDATE  mashroom.supplier_master set  Supplier_Last_Name=?,Created_Date=?, Supplier_contact_person=?, Supplier_contact_person_Mobile=? WHERE Supplier_First_Name=?");
 		

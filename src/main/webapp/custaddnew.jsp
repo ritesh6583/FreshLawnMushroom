@@ -171,7 +171,7 @@ li.dropdown {
 </form>>
 </body>
 <footer>Copyright &copy; freshlawnmushroom.com</footer>
-<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
 		$('.add-product').click(function() {
