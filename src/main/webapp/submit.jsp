@@ -1,7 +1,7 @@
 <%
 
 	String username = request.getParameter("username");
-	String password = request.getParameter("ESqHyRTdks");
+	String password = request.getParameter("password");
 
 	if ("password".equalsIgnoreCase(password)) {
 		if ("usermd".equalsIgnoreCase(username)) {
